@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Runtime
+.env
+*.db
+*.sqlite3
+backend/data/
+
+# Generated
+coverage/
+storybook-static/
